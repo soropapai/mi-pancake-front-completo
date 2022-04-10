@@ -6,7 +6,7 @@ function useSentryUser() {
   const { account } = useActiveWeb3React()
   useEffect(() => {
     if (account) {
-      Sentry.setUser({ account })
+      // Sentry.setUser({ account })
     }
   }, [account])
 }
